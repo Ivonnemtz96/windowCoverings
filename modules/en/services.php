@@ -107,7 +107,7 @@
                         <div class="inner-text">
                             <h3><a href="ser-interior-design.html">Tapicería</a></h3>
                             <p>
-                                Revive your furniture and give a fresh looccck to your spaces with our dreamy upholstery!
+                                Revive your furniture and give a fresh look to your spaces with our dreamy upholstery!
                             </p>
                             <div class="readmore-button">
                                 <a href="ser-interior-design.html"><span class="flaticon-up-arrow"></span></a>

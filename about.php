@@ -15,7 +15,7 @@ include('includes/head.php');
     ?>
     <div class="boxed_wrapper ltr">
         <?php
-            include('includes/'.$lenguaje.'/header.php');
+            include('modules/'.$lenguaje.'/header.php');
             include('modules/'.$lenguaje.'/about.php');
             include('includes/redes.php');
             include('includes/'.$lenguaje.'/footer.php');

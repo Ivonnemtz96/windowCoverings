@@ -1,5 +1,5 @@
 <?php 
-  include('/backend/indexcontroller.php');
+  include('backend/indexcontroller.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -15,10 +15,10 @@ include('includes/head.php');
     ?>
     <div class="boxed_wrapper ltr">
         <?php
-            include('includes/header.php');
+            include('modules/'.$lenguaje.'/header.php');
             include('modules/'.$lenguaje.'/services.php');
             include('includes/redes.php');
-            include('includes/footer.php');
+            include('modules/'.$lenguaje.'/footer.php');
         ?>
     </div>
 
