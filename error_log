@@ -1,0 +1,38 @@
+[12-Jun-2023 16:37:10 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/arketll6/public_html/000-SUBDOMINIOS/window/backend/vistaBlog_Gal.php on line 24
+[12-Jun-2023 16:37:10 America/Boise] PHP Notice:  Trying to get property 'num_rows' of non-object in /home1/arketll6/public_html/000-SUBDOMINIOS/window/backend/vistaBlog_Gal.php on line 28
+[12-Jun-2023 16:37:10 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function close() on bool in /home1/arketll6/public_html/000-SUBDOMINIOS/window/backend/vistaBlog_Gal.php:41
+Stack trace:
+#0 /home1/arketll6/public_html/000-SUBDOMINIOS/window/modules/project-detail2.php(48): include()
+#1 /home1/arketll6/public_html/000-SUBDOMINIOS/window/project-detail2.php(18): include('/home1/arketll6...')
+#2 {main}
+  thrown in /home1/arketll6/public_html/000-SUBDOMINIOS/window/backend/vistaBlog_Gal.php on line 41
+[12-Jun-2023 16:55:07 America/Boise] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/arketll6/public_html/000-SUBDOMINIOS/window/backend/vistaBlog_Gal.php on line 24
+[12-Jun-2023 16:55:07 America/Boise] PHP Notice:  Trying to get property 'num_rows' of non-object in /home1/arketll6/public_html/000-SUBDOMINIOS/window/backend/vistaBlog_Gal.php on line 28
+[12-Jun-2023 16:55:07 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function close() on bool in /home1/arketll6/public_html/000-SUBDOMINIOS/window/backend/vistaBlog_Gal.php:41
+Stack trace:
+#0 /home1/arketll6/public_html/000-SUBDOMINIOS/window/modules/project-detail2.php(48): include()
+#1 /home1/arketll6/public_html/000-SUBDOMINIOS/window/project-detail2.php(18): include('/home1/arketll6...')
+#2 {main}
+  thrown in /home1/arketll6/public_html/000-SUBDOMINIOS/window/backend/vistaBlog_Gal.php on line 41
+[12-Jun-2023 17:00:43 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/arketll6/public_html/000-SUBDOMINIOS/window/project-detail2.php:5) in /home1/arketll6/public_html/000-SUBDOMINIOS/window/backend/blog_detalles.php on line 69
+[12-Jun-2023 17:00:53 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/arketll6/public_html/000-SUBDOMINIOS/window/project-detail2.php:5) in /home1/arketll6/public_html/000-SUBDOMINIOS/window/backend/blog_detalles.php on line 69
+[12-Jun-2023 17:01:10 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/arketll6/public_html/000-SUBDOMINIOS/window/project-detail2.php:5) in /home1/arketll6/public_html/000-SUBDOMINIOS/window/backend/blog_detalles.php on line 69
+[12-Jun-2023 17:12:18 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home1/arketll6/public_html/000-SUBDOMINIOS/window/project-detail2.php:10
+Stack trace:
+#0 {main}
+  thrown in /home1/arketll6/public_html/000-SUBDOMINIOS/window/project-detail2.php on line 10
+[12-Jun-2023 17:12:38 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home1/arketll6/public_html/000-SUBDOMINIOS/window/project-detail2.php:10
+Stack trace:
+#0 {main}
+  thrown in /home1/arketll6/public_html/000-SUBDOMINIOS/window/project-detail2.php on line 10
+[12-Jun-2023 17:22:37 America/Boise] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home1/arketll6/public_html/000-SUBDOMINIOS/window/backend/validar_entrada.php on line 14
+[30-Jun-2023 13:37:09 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home1/arketll6/public_html/000-SUBDOMINIOS/window/backend/validar_entrada.php:8
+Stack trace:
+#0 /home1/arketll6/public_html/000-SUBDOMINIOS/window/project-detail2.php(4): require_once()
+#1 {main}
+  thrown in /home1/arketll6/public_html/000-SUBDOMINIOS/window/backend/validar_entrada.php on line 8
+[05-Jul-2023 15:20:26 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home1/arketll6/public_html/000-SUBDOMINIOS/window/backend/validar_entrada.php:8
+Stack trace:
+#0 /home1/arketll6/public_html/000-SUBDOMINIOS/window/project-detail2.php(4): require_once()
+#1 {main}
+  thrown in /home1/arketll6/public_html/000-SUBDOMINIOS/window/backend/validar_entrada.php on line 8
