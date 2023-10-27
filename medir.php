@@ -16,10 +16,10 @@ include('includes/head.php');
 
     <div class="boxed_wrapper ltr">
         <?php
-            include('includes/'.$lenguaje.'/header.php');
+            include('modules/'.$lenguaje.'/header.php');
             include('modules/'.$lenguaje.'/medir.php');
             include('includes/redes.php');
-            include('includes/'.$lenguaje.'/footer.php');
+            include('modules/'.$lenguaje.'/footer.php');
         ?>
     </div>
 
