@@ -1,0 +1,157 @@
+[07-Jun-2023 13:13:32 America/Boise] PHP Notice:  Undefined variable: blog_id in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/galeria.php on line 84
+[07-Jun-2023 13:16:48 America/Boise] PHP Notice:  Undefined variable: blog_id in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/galeria.php on line 84
+[07-Jun-2023 14:03:18 America/Boise] PHP Notice:  Undefined variable: entrada in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/galeria.php on line 41
+[07-Jun-2023 15:01:06 America/Boise] PHP Notice:  Undefined variable: sql in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/galeria.php on line 42
+[07-Jun-2023 16:06:36 America/Boise] PHP Notice:  Undefined variable: db in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/galeria.php on line 41
+[07-Jun-2023 16:06:36 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function getAllRecords() on null in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/galeria.php:41
+Stack trace:
+#0 /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/galeria.php(2): include()
+#1 {main}
+  thrown in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/galeria.php on line 41
+[07-Jun-2023 16:06:54 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::getAllRecords() in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/galeria.php:41
+Stack trace:
+#0 /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/galeria.php(2): include()
+#1 {main}
+  thrown in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/galeria.php on line 41
+[07-Jun-2023 16:15:13 America/Boise] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/galeria.php:42
+Stack trace:
+#0 /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/galeria.php(2): include()
+#1 {main}
+  thrown in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/galeria.php on line 42
+[07-Jun-2023 16:20:59 America/Boise] PHP Notice:  Undefined variable: result in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/galeria.php on line 42
+[07-Jun-2023 16:20:59 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/galeria.php:42
+Stack trace:
+#0 /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/galeria.php(2): include()
+#1 {main}
+  thrown in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/galeria.php on line 42
+[07-Jun-2023 16:40:05 America/Boise] PHP Notice:  Undefined variable: result in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/galeria.php on line 42
+[07-Jun-2023 16:40:05 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/galeria.php:42
+Stack trace:
+#0 /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/galeria.php(2): include()
+#1 {main}
+  thrown in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/galeria.php on line 42
+[07-Jun-2023 17:08:46 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/galeria.php:85
+Stack trace:
+#0 /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/galeria.php(2): include()
+#1 {main}
+  thrown in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/galeria.php on line 85
+[07-Jun-2023 17:52:54 America/Boise] PHP Warning:  include(admin/backend/ver_fotos.php): failed to open stream: No existe el fichero o el directorio in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/editar/galeria.php on line 33
+[07-Jun-2023 17:52:54 America/Boise] PHP Warning:  include(admin/backend/ver_fotos.php): failed to open stream: No existe el fichero o el directorio in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/editar/galeria.php on line 33
+[07-Jun-2023 17:52:54 America/Boise] PHP Warning:  include(): Failed opening 'admin/backend/ver_fotos.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/editar/galeria.php on line 33
+[07-Jun-2023 17:53:58 America/Boise] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/ver_fotos.php on line 2
+[07-Jun-2023 17:53:58 America/Boise] PHP Notice:  Undefined index: blog_fecha in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/ver_fotos.php on line 35
+[07-Jun-2023 17:54:53 America/Boise] PHP Notice:  Undefined index: blog_fecha in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/ver_fotos.php on line 15
+[30-Jun-2023 17:54:25 America/Boise] PHP Warning:  require_once(/home1/arketll6/public_html/000-SUBDOMINIOS/windowincludes/head.php): failed to open stream: No existe el fichero o el directorio in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/editar_blog.php on line 17
+[30-Jun-2023 17:54:25 America/Boise] PHP Fatal error:  require_once(): Failed opening required '/home1/arketll6/public_html/000-SUBDOMINIOS/windowincludes/head.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/editar_blog.php on line 17
+[03-Jul-2023 12:30:33 America/Boise] PHP Warning:  include(admin/backend/editar_blog.php): failed to open stream: No existe el fichero o el directorio in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/editar/blog.php on line 12
+[03-Jul-2023 12:30:33 America/Boise] PHP Warning:  include(admin/backend/editar_blog.php): failed to open stream: No existe el fichero o el directorio in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/editar/blog.php on line 12
+[03-Jul-2023 12:30:33 America/Boise] PHP Warning:  include(): Failed opening 'admin/backend/editar_blog.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/editar/blog.php on line 12
+[03-Jul-2023 12:30:45 America/Boise] PHP Warning:  include(/admin/backend/editar_blog.php): failed to open stream: No existe el fichero o el directorio in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/editar/blog.php on line 12
+[03-Jul-2023 12:30:45 America/Boise] PHP Warning:  include(): Failed opening '/admin/backend/editar_blog.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/editar/blog.php on line 12
+[03-Jul-2023 12:30:55 America/Boise] PHP Warning:  include(/backend/editar_blog.php): failed to open stream: No existe el fichero o el directorio in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/editar/blog.php on line 12
+[03-Jul-2023 12:30:55 America/Boise] PHP Warning:  include(): Failed opening '/backend/editar_blog.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/editar/blog.php on line 12
+[03-Jul-2023 12:31:01 America/Boise] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/editar_blog.php on line 5
+[03-Jul-2023 12:31:01 America/Boise] PHP Notice:  Undefined index: blogID in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/editar_blog.php on line 20
+[03-Jul-2023 12:31:01 America/Boise] PHP Notice:  Trying to get property 'num_rows' of non-object in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/editar_blog.php on line 28
+[03-Jul-2023 12:31:44 America/Boise] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/editar_blog.php on line 5
+[03-Jul-2023 12:31:44 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/editar_blog.php:4) in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/editar_blog.php on line 7
+[03-Jul-2023 12:31:59 America/Boise] PHP Warning:  include(admin/backend/editar_blog.php): failed to open stream: No such file or directory in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/editar/blog.php on line 12
+[03-Jul-2023 12:31:59 America/Boise] PHP Warning:  include(admin/backend/editar_blog.php): failed to open stream: No such file or directory in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/editar/blog.php on line 12
+[03-Jul-2023 12:31:59 America/Boise] PHP Warning:  include(): Failed opening 'admin/backend/editar_blog.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/editar/blog.php on line 12
+[03-Jul-2023 12:34:57 America/Boise] PHP Warning:  include(admin/backend/editar_blog.php): failed to open stream: No such file or directory in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/editar/blog.php on line 12
+[03-Jul-2023 12:34:57 America/Boise] PHP Warning:  include(admin/backend/editar_blog.php): failed to open stream: No such file or directory in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/editar/blog.php on line 12
+[03-Jul-2023 12:34:57 America/Boise] PHP Warning:  include(): Failed opening 'admin/backend/editar_blog.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/editar/blog.php on line 12
+[03-Jul-2023 12:34:58 America/Boise] PHP Warning:  include(admin/backend/editar_blog.php): failed to open stream: No such file or directory in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/editar/blog.php on line 12
+[03-Jul-2023 12:34:58 America/Boise] PHP Warning:  include(admin/backend/editar_blog.php): failed to open stream: No such file or directory in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/editar/blog.php on line 12
+[03-Jul-2023 12:34:58 America/Boise] PHP Warning:  include(): Failed opening 'admin/backend/editar_blog.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/editar/blog.php on line 12
+[03-Jul-2023 12:35:02 America/Boise] PHP Warning:  include(admin/backend/editar_blog.php): failed to open stream: No such file or directory in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/editar/blog.php on line 12
+[03-Jul-2023 12:35:02 America/Boise] PHP Warning:  include(admin/backend/editar_blog.php): failed to open stream: No such file or directory in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/editar/blog.php on line 12
+[03-Jul-2023 12:35:02 America/Boise] PHP Warning:  include(): Failed opening 'admin/backend/editar_blog.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/editar/blog.php on line 12
+[03-Jul-2023 12:35:04 America/Boise] PHP Warning:  include(admin/backend/editar_blog.php): failed to open stream: No such file or directory in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/editar/blog.php on line 12
+[03-Jul-2023 12:35:04 America/Boise] PHP Warning:  include(admin/backend/editar_blog.php): failed to open stream: No such file or directory in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/editar/blog.php on line 12
+[03-Jul-2023 12:35:04 America/Boise] PHP Warning:  include(): Failed opening 'admin/backend/editar_blog.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/editar/blog.php on line 12
+[03-Jul-2023 12:43:21 America/Boise] PHP Warning:  require_once(/home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/edi.php): failed to open stream: No such file or directory in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/editar/blog.php on line 12
+[03-Jul-2023 12:43:21 America/Boise] PHP Fatal error:  require_once(): Failed opening required '/home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/edi.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/editar/blog.php on line 12
+[03-Jul-2023 12:46:15 America/Boise] PHP Notice:  session_start(): A session had already been started - ignoring in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/editar_blog.php on line 8
+[03-Jul-2023 12:46:15 America/Boise] PHP Notice:  Undefined index: blogID in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/editar_blog.php on line 23
+[03-Jul-2023 12:46:15 America/Boise] PHP Notice:  Trying to get property 'num_rows' of non-object in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/editar_blog.php on line 31
+[03-Jul-2023 12:46:35 America/Boise] PHP Notice:  Undefined index: blogID in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/editar_blog.php on line 17
+[03-Jul-2023 12:46:35 America/Boise] PHP Notice:  Trying to get property 'num_rows' of non-object in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/editar_blog.php on line 25
+[03-Jul-2023 13:22:24 America/Boise] PHP Warning:  require_once(/home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/ver_editBlog.php): failed to open stream: No such file or directory in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/editar/blog.php on line 12
+[03-Jul-2023 13:22:24 America/Boise] PHP Fatal error:  require_once(): Failed opening required '/home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/ver_editBlog.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/editar/blog.php on line 12
+[03-Jul-2023 13:38:57 America/Boise] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/ver_editBlog.php on line 23
+[03-Jul-2023 13:38:57 America/Boise] PHP Notice:  Trying to get property 'num_rows' of non-object in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/ver_editBlog.php on line 25
+[03-Jul-2023 13:39:28 America/Boise] PHP Notice:  Undefined variable: resultado in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/ver_editBlog.php on line 25
+[03-Jul-2023 13:39:28 America/Boise] PHP Notice:  Trying to get property 'num_rows' of non-object in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/ver_editBlog.php on line 25
+[03-Jul-2023 13:39:40 America/Boise] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/ver_editBlog.php on line 22
+[03-Jul-2023 13:39:40 America/Boise] PHP Notice:  Trying to get property 'num_rows' of non-object in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/ver_editBlog.php on line 24
+[03-Jul-2023 15:08:17 America/Boise] PHP Warning:  move_uploaded_file(../upload/portada/2023/07/64a338c1a8db2.jpg): failed to open stream: No existe el fichero o el directorio in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/editar_entrada.php on line 46
+[03-Jul-2023 15:08:17 America/Boise] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpVUlQn1' to '../upload/portada/2023/07/64a338c1a8db2.jpg' in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/editar_entrada.php on line 46
+[03-Jul-2023 15:25:30 America/Boise] PHP Warning:  move_uploaded_file(../upload/portada/2023/07/64a33ccaa37ba.jpg): failed to open stream: No existe el fichero o el directorio in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/editar_entrada.php on line 46
+[03-Jul-2023 15:25:30 America/Boise] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpOhvpnC' to '../upload/portada/2023/07/64a33ccaa37ba.jpg' in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/editar_entrada.php on line 46
+[03-Jul-2023 15:52:24 America/Boise] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/editar_entrada.php on line 2
+[03-Jul-2023 15:52:37 America/Boise] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/editar_entrada.php on line 2
+[03-Jul-2023 15:58:27 America/Boise] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/ver_editBlog.php on line 23
+[03-Jul-2023 15:58:27 America/Boise] PHP Notice:  Trying to get property 'num_rows' of non-object in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/ver_editBlog.php on line 25
+[03-Jul-2023 17:02:12 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function GeraHash() in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/editar_entrada.php:44
+Stack trace:
+#0 /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/editar_blog.php(35): include()
+#1 {main}
+  thrown in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/editar_entrada.php on line 44
+[03-Jul-2023 17:14:07 America/Boise] PHP Notice:  Undefined variable: blog_fecha in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/editar_entrada.php on line 99
+[03-Jul-2023 17:59:50 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/editar_blog.php:8) in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/editar_entrada.php on line 105
+[03-Jul-2023 18:02:06 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/editar_blog.php:8) in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/editar_entrada.php on line 104
+[04-Jul-2023 10:29:40 America/Boise] PHP Notice:  Undefined variable: uploadPath in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/editar_entrada.php on line 70
+[04-Jul-2023 10:29:40 America/Boise] PHP Warning:  move_uploaded_file(): Filename cannot be empty in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/editar_entrada.php on line 70
+[04-Jul-2023 10:29:40 America/Boise] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phphyIXxK' to '' in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/editar_entrada.php on line 70
+[04-Jul-2023 10:30:39 America/Boise] PHP Notice:  Undefined variable: uploadPath in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/editar_entrada.php on line 70
+[04-Jul-2023 10:30:39 America/Boise] PHP Warning:  move_uploaded_file(): Filename cannot be empty in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/editar_entrada.php on line 70
+[04-Jul-2023 10:30:39 America/Boise] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php0YihW7' to '' in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/editar_entrada.php on line 70
+[04-Jul-2023 10:30:52 America/Boise] PHP Notice:  Undefined variable: uploadPath in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/editar_entrada.php on line 70
+[04-Jul-2023 10:30:52 America/Boise] PHP Warning:  move_uploaded_file(): Filename cannot be empty in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/editar_entrada.php on line 70
+[04-Jul-2023 10:30:52 America/Boise] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpWUImnG' to '' in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/editar_entrada.php on line 70
+[04-Jul-2023 11:31:14 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/editar_blog.php:13) in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/ver_editBlog.php on line 106
+[04-Jul-2023 14:08:28 America/Boise] PHP Notice:  Undefined index: blogId in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/galeria.php on line 38
+[04-Jul-2023 14:08:28 America/Boise] PHP Notice:  Undefined index: blogId in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/ver_fotos.php on line 3
+[04-Jul-2023 14:28:51 America/Boise] PHP Notice:  Undefined variable: bandera in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/msj.php on line 48
+[04-Jul-2023 14:28:51 America/Boise] PHP Notice:  Undefined variable: bandera in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/msj.php on line 54
+[04-Jul-2023 14:28:51 America/Boise] PHP Notice:  Undefined variable: bandera in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/msj.php on line 60
+[04-Jul-2023 14:28:51 America/Boise] PHP Notice:  Undefined variable: bandera in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/msj.php on line 66
+[04-Jul-2023 14:29:29 America/Boise] PHP Notice:  Undefined variable: bandera in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/msj.php on line 50
+[04-Jul-2023 14:29:29 America/Boise] PHP Notice:  Undefined variable: bandera in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/msj.php on line 56
+[04-Jul-2023 14:29:29 America/Boise] PHP Notice:  Undefined variable: bandera in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/msj.php on line 62
+[04-Jul-2023 14:29:29 America/Boise] PHP Notice:  Undefined variable: bandera in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/msj.php on line 68
+[04-Jul-2023 14:29:34 America/Boise] PHP Notice:  Undefined variable: bandera in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/msj.php on line 50
+[04-Jul-2023 14:29:34 America/Boise] PHP Notice:  Undefined variable: bandera in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/msj.php on line 56
+[04-Jul-2023 14:29:34 America/Boise] PHP Notice:  Undefined variable: bandera in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/msj.php on line 62
+[04-Jul-2023 14:29:34 America/Boise] PHP Notice:  Undefined variable: bandera in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/msj.php on line 68
+[04-Jul-2023 14:32:24 America/Boise] PHP Notice:  Undefined variable: bandera in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/galeria.php on line 112
+[04-Jul-2023 14:32:24 America/Boise] PHP Notice:  Undefined variable: bandera in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/galeria.php on line 118
+[04-Jul-2023 14:32:24 America/Boise] PHP Notice:  Undefined variable: bandera in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/galeria.php on line 124
+[04-Jul-2023 14:32:24 America/Boise] PHP Notice:  Undefined variable: bandera in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/galeria.php on line 130
+[04-Jul-2023 14:32:53 America/Boise] PHP Notice:  Undefined variable: bandera in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/galeria.php on line 112
+[04-Jul-2023 14:32:53 America/Boise] PHP Notice:  Undefined variable: bandera in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/galeria.php on line 118
+[04-Jul-2023 14:32:53 America/Boise] PHP Notice:  Undefined variable: bandera in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/galeria.php on line 124
+[04-Jul-2023 14:32:53 America/Boise] PHP Notice:  Undefined variable: bandera in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/galeria.php on line 130
+[04-Jul-2023 14:46:24 America/Boise] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/galeria.php on line 10
+[04-Jul-2023 14:46:24 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/msj.php:1) in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/galeria.php on line 12
+[04-Jul-2023 14:46:29 America/Boise] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/galeria.php on line 10
+[04-Jul-2023 14:46:29 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/msj.php:1) in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/galeria.php on line 12
+[04-Jul-2023 15:33:27 America/Boise] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/galeria.php on line 9
+[04-Jul-2023 15:33:27 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/msj.php:1) in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/galeria.php on line 11
+[04-Jul-2023 16:10:02 America/Boise] PHP Notice:  Undefined variable: subidaExitosa in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/galeria.php on line 105
+[04-Jul-2023 16:10:02 America/Boise] PHP Notice:  Undefined variable: errorSubida in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/galeria.php on line 107
+[04-Jul-2023 16:11:04 America/Boise] PHP Notice:  Undefined variable: subidaExitosa in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/galeria.php on line 105
+[04-Jul-2023 16:11:04 America/Boise] PHP Notice:  Undefined variable: errorSubida in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/galeria.php on line 107
+[04-Jul-2023 16:14:32 America/Boise] PHP Notice:  Undefined variable: subidaExitosa in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/galeria.php on line 105
+[04-Jul-2023 16:14:32 America/Boise] PHP Notice:  Undefined variable: errorSubida in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/galeria.php on line 107
+[04-Jul-2023 16:15:42 America/Boise] PHP Notice:  Undefined variable: subidaExitosa in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/galeria.php on line 105
+[04-Jul-2023 16:15:42 America/Boise] PHP Notice:  Undefined variable: errorSubida in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/galeria.php on line 107
+[04-Jul-2023 16:17:26 America/Boise] PHP Notice:  Undefined variable: subidaExitosa in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/galeria.php on line 108
+[04-Jul-2023 16:17:26 America/Boise] PHP Notice:  Undefined variable: errorSubida in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/galeria.php on line 110
+[14-Jul-2023 13:29:08 America/Boise] PHP Fatal error:  Uncaught Error: Function name must be a string in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/ver_fotos.php:6
+Stack trace:
+#0 /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/editar/galeria.php(29): require_once()
+#1 /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/galeria.php(28): include('/home1/arketll6...')
+#2 {main}
+  thrown in /home1/arketll6/public_html/000-SUBDOMINIOS/window/admin/backend/ver_fotos.php on line 6
