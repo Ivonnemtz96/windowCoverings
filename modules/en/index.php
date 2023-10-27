@@ -497,7 +497,7 @@
                 <div class="testimonial-style2-image-box clearfix wow" data-wow-delay="300ms"
                     data-wow-duration="1500ms">
                     <div class="bg-box thm-bgclr"></div>
-                    <img src="/assets/images/03.png" style="width: 38rem; margin-left: 5rem;" alt="">
+                    <img src="/assets/images/services/02.jpg" style="width: 38rem; margin-left: 5rem;" alt="">
                     <div class="title-box">Customer Feedbacks</div>
                 </div>
             </div>
