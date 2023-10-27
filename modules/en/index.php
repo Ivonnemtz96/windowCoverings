@@ -163,7 +163,7 @@
                         </li>
                         <li>
                             <p>Sunday</p>
-                            <h3>Cerrado</h3>
+                            <h3>Closed</h3>
                         </li>
                     </ul>
                     <div class="buttom-box">
