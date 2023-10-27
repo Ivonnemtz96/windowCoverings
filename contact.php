@@ -1,3 +1,6 @@
+<?php 
+  include('backend/indexcontroller.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <?php
@@ -13,7 +16,7 @@ include('includes/head.php');
     <div class="boxed_wrapper ltr">
         <?php
             include('includes/header.php');
-            include('modules/contact.php');
+            include('modules/'.$lenguaje.'/contact.php');
             include('includes/redes.php');
             include('includes/footer.php');
         ?>

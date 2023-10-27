@@ -75,7 +75,7 @@
             <div class="sub-title">
                 <h3>Let us know your preferred design style!</h3>
             </div>
-            <h2>Envíenos un mensaje</h2>
+            <h2>Send us a message</h2>
         </div>
         <div class="row">
             <div class="col-xl-12">
