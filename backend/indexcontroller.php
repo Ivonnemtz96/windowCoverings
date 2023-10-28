@@ -1,18 +1,12 @@
 <?php 
-
-    if (isset($_SERVER['HTTP_REFERER'])) {
-        $url = $_SERVER['HTTP_REFERER'];
-    } else {
-        $url = "/";
-    }
-
-
+$url = $_SERVER['HTTP_REFERER'];
     if(!isset ($_COOKIE["lang"])){
     setcookie("lang","en", time() + (365 * 24 * 60 * 60));
-     header('location:' . $url . '');
-    }
-    else{
-        $lenguaje = $_COOKIE["lang"];
+    header('location:' . $url . '');
+    
+}
+else{
+    $lenguaje = $_COOKIE["lang"];
     }
     
 
@@ -25,6 +19,11 @@
     //ya tengamos una cookie con el último idioma que eligió
     $lenguaje = $_REQUEST["lang"];
     setcookie("lang", $lenguaje, time() + (365 * 24 * 60 * 60));
+    header('location:' . $url . '');
 
-     header('location:' . $url . '');
+
     }
+
+    
+    
+?>
