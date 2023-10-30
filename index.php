@@ -1,6 +1,6 @@
-<?php 
-  include('backend/indexcontroller.php');
-?>
+<?
+     include('backend/indexcontroller.php');   
+    ?>
 <!DOCTYPE html>
 <html lang="en">
 <?php

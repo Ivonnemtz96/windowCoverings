@@ -102,8 +102,8 @@
                                 <a href="https://instagram.com/windowcoverings_bcs?igshid=MzRlODBiNWFlZA=="
                                     target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                             </li>
-                            <li>
-                                <a href="?lang=es"><img src="/assets/images/mex.png" alt=""></a>
+                            <li id="changeLanguage">
+                                <a href="?lang=es" ><img src="/assets/images/mex.png" alt=""></a>
                             </li>
                         </ul>
                     </div>

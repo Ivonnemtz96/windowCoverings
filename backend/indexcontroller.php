@@ -1,29 +1,33 @@
-<?php 
-$url = $_SERVER['HTTP_REFERER'];
-    if(!isset ($_COOKIE["lang"])){
-    setcookie("lang","en", time() + (365 * 24 * 60 * 60));
-    header('location:' . $url . '');
-    
+<?php
+// Configuración de idioma por defecto
+$idioma_por_defecto = "en";
+
+
+// Inicializa la variable $lenguaje
+$lenguaje = $idioma_por_defecto;
+
+// Obtén la URL de referencia
+if (isset($_SERVER['HTTP_REFERER'])) {
+    $url = $_SERVER['HTTP_REFERER'];
+} else {
+    $url = "/";
 }
-else{
+
+
+// Verifica si existe la cookie "lang"
+if (isset($_COOKIE["lang"])) {
     $lenguaje = $_COOKIE["lang"];
-    }
-    
+    setcookie("lang", $lenguaje, time() + 365 * 24 * 60 * 60);
+}
 
-    //isset verifica que la variable exista, sin dar error
-    //regresa true or false
-    //Verificar si existe ?lang=en ó ?lang=es en la url
-    if (isset($_REQUEST["lang"])) {
-    //Si existe, creamos una cookie con ese valor,
-    //para que la siguiente vez que el cliente entre,
-    //ya tengamos una cookie con el último idioma que eligió
+// Verifica si se proporciona un nuevo idioma en la URL y actualiza la cookie
+if (isset($_REQUEST["lang"])) {
     $lenguaje = $_REQUEST["lang"];
-    setcookie("lang", $lenguaje, time() + (365 * 24 * 60 * 60));
-    header('location:' . $url . '');
+    setcookie("lang", $lenguaje, time() + 365 * 24 * 60 * 60);
+    // Redirige a la URL de referencia con el idioma seleccionado
+    header('Location: ' . $url);   
+}
 
 
-    }
 
-    
-    
 ?>
