@@ -4,23 +4,22 @@ session_start();
 
 // Configuración de idioma por defecto y lista de idiomas admitidos
 $idioma_por_defecto = "en";
-$idiomas_admitidos = array("en", "es");
 
 // Inicializa la variable $lenguaje
-if (isset($_SESSION["lang"]) && in_array($_SESSION["lang"], $idiomas_admitidos)) {
+if (isset($_SESSION["lang"])) {
     $lenguaje = $_SESSION["lang"];
 } else {
     $lenguaje = $idioma_por_defecto;
+   
 }
 
 // Verifica si se proporciona un nuevo idioma en la URL y actualiza la sesión
-if (isset($_REQUEST["lang"]) && in_array($_REQUEST["lang"], $idiomas_admitidos)) {
+if (isset($_REQUEST["lang"])) {
     $nuevoLenguaje = $_REQUEST["lang"];
     $_SESSION["lang"] = $nuevoLenguaje;
     $lenguaje = $nuevoLenguaje;
     // Redirige a la URL de referencia con el idioma seleccionado
     header('Location: ' . $url_referencia);
-
     // Detiene la ejecución del script
     exit;
 }
