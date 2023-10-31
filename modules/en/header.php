@@ -80,10 +80,10 @@
                                     <li hidden class="<?echo $blog?>"><a href="/blog">Blog</a></li>
                                     <li class="<?echo $medir?>"><a href="/medir">Measure</a></li>
                                     <li class="<?echo $contacto?>"><a href="/contact">Contact Us</a></li>
-                                    <li class="dropdown current"><a href="#">Idioma</a>
+                                    <li class="dropdown"><a href="#">Language</a>
                                         <ul>
-                                            <li><a href="?lang=en">Inglés</a></li>
-                                            <li><a href="?lang=es">Español</a></li>
+                                            <li><a href="?lang=en">English</a></li>
+                                            <li><a href="?lang=es">Spanish</a></li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -107,9 +107,6 @@
                             <li>
                                 <a href="https://instagram.com/windowcoverings_bcs?igshid=MzRlODBiNWFlZA=="
                                     target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                            </li>
-                            <li >
-                                <a href="?lang=es"><img src="/assets/images/mex.png" alt=""></a>
                             </li>
                         </ul>
                     </div>
