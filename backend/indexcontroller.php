@@ -1,33 +1,41 @@
 <?php
-// Configuración de idioma por defecto
-$idioma_por_defecto = "en";
+// Iniciar sesión
+session_start();
 
+// Configuración de idioma por defecto y lista de idiomas admitidos
+$idioma_por_defecto = "en";
+$idiomas_admitidos = array("en", "es");
 
 // Inicializa la variable $lenguaje
-$lenguaje = $idioma_por_defecto;
+if (isset($_SESSION["lang"]) && in_array($_SESSION["lang"], $idiomas_admitidos)) {
+    $lenguaje = $_SESSION["lang"];
+} else {
+    $lenguaje = $idioma_por_defecto;
+}
+
+// Verifica si se proporciona un nuevo idioma en la URL y actualiza la sesión
+if (isset($_REQUEST["lang"]) && in_array($_REQUEST["lang"], $idiomas_admitidos)) {
+    $nuevoLenguaje = $_REQUEST["lang"];
+    $_SESSION["lang"] = $nuevoLenguaje;
+    $lenguaje = $nuevoLenguaje;
+    // Redirige a la URL de referencia con el idioma seleccionado
+    header('Location: ' . $url_referencia);
+
+    // Detiene la ejecución del script
+    exit;
+}
 
 // Obtén la URL de referencia
 if (isset($_SERVER['HTTP_REFERER'])) {
-    $url = $_SERVER['HTTP_REFERER'];
+    $url_referencia = $_SERVER['HTTP_REFERER'];
 } else {
-    $url = "/";
+    $url_referencia = "/";
 }
 
-
-// Verifica si existe la cookie "lang"
-if (isset($_COOKIE["lang"])) {
-    $lenguaje = $_COOKIE["lang"];
-    setcookie("lang", $lenguaje, time() + 365 * 24 * 60 * 60);
+// Validar la URL de referencia antes de redirigir
+if (!filter_var($url_referencia, FILTER_VALIDATE_URL)) {
+    $url_referencia = "/";
 }
-
-// Verifica si se proporciona un nuevo idioma en la URL y actualiza la cookie
-if (isset($_REQUEST["lang"])) {
-    $lenguaje = $_REQUEST["lang"];
-    setcookie("lang", $lenguaje, time() + 365 * 24 * 60 * 60);
-    // Redirige a la URL de referencia con el idioma seleccionado
-    header('Location: ' . $url);   
-}
-
 
 
 ?>

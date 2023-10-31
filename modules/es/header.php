@@ -78,6 +78,12 @@
                                     <li hidden class="<?echo $blog?>"><a href="/blog">Blog</a></li>
                                     <li class="<?echo $medir?>"><a href="/medir">Medir</a></li>
                                     <li class="<?echo $contacto?>"><a href="/contact">Contáctanos</a></li>
+                                    <li class="dropdown current"><a href="#">Idioma</a>
+                                        <ul>
+                                            <li><a href="?lang=en">Inglés</a></li>
+                                            <li><a href="?lang=es">Español</a></li>
+                                        </ul>
+                                    </li>
                                 </ul>
                             </div>
                         </nav>
@@ -101,7 +107,7 @@
                                         class="fa fa-instagram" aria-hidden="true"></i></a>
                             </li>
                             <li>
-                                <a href="?lang=en"><img src="/assets/images/usa.png" alt=""></a>
+                                <a href="?lang=en"><img style="width:2rem;" src="/assets/images/usa.png" alt=""></a>
                             </li>
                         </ul>
                     </div>

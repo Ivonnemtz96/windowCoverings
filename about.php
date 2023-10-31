@@ -18,7 +18,7 @@ include('includes/head.php');
             include('modules/'.$lenguaje.'/header.php');
             include('modules/'.$lenguaje.'/about.php');
             include('includes/redes.php');
-            include('includes/'.$lenguaje.'/footer.php');
+            include('modules/'.$lenguaje.'/footer.php');
         ?>
     </div>
 

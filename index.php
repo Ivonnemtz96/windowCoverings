@@ -1,6 +1,6 @@
 <?
-     include('backend/indexcontroller.php');   
-    ?>
+    include('backend/indexcontroller.php');   
+?>
 <!DOCTYPE html>
 <html lang="en">
 <?php
@@ -18,7 +18,7 @@ include('includes/head.php');
             include('modules/'.$lenguaje.'/header.php');
             include('modules/'.$lenguaje.'/index.php');
             include('includes/redes.php');
-            include('includes/'.$lenguaje.'/footer.php');
+            include('modules/'.$lenguaje.'/footer.php');
         ?>
     </div>
 
