@@ -450,8 +450,8 @@
                             <div class="text-holder">
                                 <div class="text-box">
                                     <p>
-                                        The best products! My home looks completely different thanks to Window
-                                        Coverings.
+                                        "The best products! My home looks completely different thanks to Window
+                                        Coverings."
                                     </p>
                                 </div>
                                 <div hidden class="client-info">
@@ -472,8 +472,8 @@
                             <div class="text-holder">
                                 <div class="text-box">
                                     <p>
-                                        From design to maintenance, I have loved everything about your services. The
-                                        designs and materials you work with are of the highest quality.
+                                        "From design to maintenance, I have loved everything about your services. The
+                                        designs and materials you work with are of the highest quality."
                                     </p>
                                 </div>
                                 <div hidden class="client-info">
@@ -643,7 +643,7 @@
                         your home.
                     </p>
                     <div class="buttom-box" style="margin-top: 3rem;">
-                        <button class="btn-one" onclick="descargar()"><span class="txt">To download the PDF</span></button>
+                        <button class="btn-one" onclick="descargar()"><span class="txt">Download catalog</span></button>
                     </div>
                 </div>
             </div>

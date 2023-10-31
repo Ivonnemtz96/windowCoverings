@@ -451,12 +451,11 @@
                             <div class="text-holder">
                                 <div class="text-box">
                                     <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis nulla,
-                                        assumenda saepe architecto porro ullam, quo ad iure vero, accusantium inventore
-                                        cumque nihil eum delectus.
+                                   " The best products! My home looks completely different thanks to Window
+                                        Coverings."
                                     </p>
                                 </div>
-                                <div class="client-info">
+                                <div hidden class="client-info">
                                     <div class="image-box">
                                         <img src="/assets/images/testimonial/tes-v1-1.png" alt="">
                                     </div>
@@ -474,12 +473,11 @@
                             <div class="text-holder">
                                 <div class="text-box">
                                     <p>
-                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi quas cum magnam,
-                                        eos pariatur qui provident iusto sed accusamus quis voluptates placeat rerum
-                                        tempore ab. Vel temporibus repudiandae dolore ut!
+                                   " From design to maintenance, I have loved everything about your services. The
+                                        designs and materials you work with are of the highest quality."
                                     </p>
                                 </div>
-                                <div class="client-info">
+                                <div hidden class="client-info">
                                     <div class="image-box">
                                         <img src="/assets/images/testimonial/tes-v1-1.png" alt="">
                                     </div>
@@ -500,7 +498,7 @@
                 <div class="testimonial-style2-image-box clearfix wow" data-wow-delay="300ms"
                     data-wow-duration="1500ms">
                     <div class="bg-box thm-bgclr"></div>
-                    <img src="/assets/images/03.png" style="width: 38rem; margin-left: 5rem;" alt="">
+                    <img src="/assets/images/services/02.jpg" style="width: 38rem; margin-left: 5rem;" alt="">
                     <div class="title-box">Customer Feedbacks</div>
                 </div>
             </div>

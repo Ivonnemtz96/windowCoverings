@@ -138,7 +138,7 @@
                         behind, download right now and immerse yourself in a world of captivating options to transform
                         your home. </p>
                     <div class="buttom-box" style="margin-top: 3rem;">
-                        <button class="btn-one" onclick="descargar()"><span class="txt">To download the PDF</span></button>
+                        <button class="btn-one" onclick="descargar()"><span class="txt">Download catalog</span></button>
                     </div>
                 </div>
             </div>
