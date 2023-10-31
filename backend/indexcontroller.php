@@ -15,8 +15,6 @@ if (isset($_SESSION["lang"])) {
     $lenguaje = $_SESSION["lang"];
 } else {
     $lenguaje = $idioma_por_defecto;
-    
-   
 }
 // Verifica si se proporciona un nuevo idioma en la URL y actualiza la sesión
 if (isset($_REQUEST["lang"])) {
@@ -24,7 +22,7 @@ if (isset($_REQUEST["lang"])) {
     $_SESSION["lang"] = $nuevoLenguaje;
     $lenguaje = $nuevoLenguaje;
      // Redirige a la URL de referencia con el idioma seleccionado
- header('Location: ' . $url . '');
+     header('Location: ' . $url . '');
    
 }
 
